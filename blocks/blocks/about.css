@@ -53,7 +53,7 @@
   left: 129px;
   top: 154px;
   border-radius: 50%;
-  position: absolute;
+  position: static;
   z-index: 2;
 }
 
