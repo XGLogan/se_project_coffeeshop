@@ -47,6 +47,7 @@
   align-items: center;
 }
 .footer__social-link:hover {
+  color: #2f80ed;
 }
 .footer__copyright {
   color: #fff;
