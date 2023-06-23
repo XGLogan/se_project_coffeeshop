@@ -1,12 +1,12 @@
 .menu {
-  background-image: url(/images/background_menu.svg);
+  background-image: url(../images/background_menu.svg);
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: right;
   background-size: auto;
   z-index: 2;
-  overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .menu__title {
