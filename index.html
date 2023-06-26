@@ -64,7 +64,7 @@
             <li>Monday - Friday (10:00 - 19:00)</li>
             <li>Saturday - Sunday (11:00 - 18:00)</li>
           </ul>
-          <p class="header__address">
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Practicum
           </p>
         </div>
@@ -72,81 +72,78 @@
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <h3 class="recipes__subtitle">
+          <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
-          </h3>
+          </p>
           <div class="recipes__videos">
-            <iframe
-              height="273"
-              width="480"
-              class="recipes__iframe"
-              src="https://www.youtube.com/embed/9SjCEOWd3PU"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              width="480"
-              height="273"
-              class="recipes__iframe"
-              src="https://www.youtube.com/embed/st571DYYTR8"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="recipes__video-caption">
-            <p class="recipes__video-captions">Whipped Coffee Recipe ~3</p>
-            <p class="recipes__video-captions">French press recipe ~15</p>
+            <div class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/9SjCEOWd3PU"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-captions">Whipped Coffee Recipe</p>
+                <p class="recipes__video-captions">~3 Min</p>
+              </div>
+            </div>
+            <div class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-captions">French press recipe</p>
+                <p class="recipes__video-captions">~15 Min</p>
+              </div>
+            </div>
           </div>
         </section>
         <section class="reservation" id="table">
           <h2 class="reservation__title">Book a Table</h2>
           <form class="form reservation__form">
-            <fieldset class="reservation__fieldset">
-              <label class="reservation__label" for="name">Name*</label>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name*</label>
               <input
-                class="reservation__input"
+                class="form__input"
                 type="text"
                 id="name"
                 name="name"
                 placeholder="Name"
               />
             </fieldset>
-            <fieldset class="reservation__fieldset">
+            <fieldset class="form__fieldset">
               <label class="reservation__label" for="guest"
                 >Number of Guests*</label
               >
               <input
-                class="reservation__input"
+                class="form__input"
                 type="number"
                 id="guest"
                 name="guest"
                 placeholder="1-8"
               />
             </fieldset>
-            <fieldset class="reservation__fieldset">
-              <label class="reservation__label" for="date">Date*</label>
-              <input
-                class="reservation__input"
-                type="date"
-                id="date"
-                name="date"
-              />
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="date">Date*</label>
+              <input class="form__input" type="date" id="date" name="date" />
             </fieldset>
-            <fieldset class="reservation__fieldset">
-              <label class="reservation__label" for="email">Email*</label>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="email">Email*</label>
               <input
-                class="reservation__input"
+                class="form__input"
                 type="email"
                 id="email"
                 name="email"
                 placeholder="email@example.com"
               />
             </fieldset>
-            <button class="reservation__button" type="submit">
-              Book A Table
-            </button>
-            <div class="reservation__checkbox">
+            <button class="form__button" type="submit">Book A Table</button>
+            <div class="form__checkbox">
               <input type="checkbox" id="agree" name="agree" />
               <label for="agree">I agree to the terms and conditions</label>
             </div>
@@ -190,31 +187,29 @@
               </ul>
             </div>
             <div class="card">
-              <div class="card card__second">
-                <p class="card__title">Expresso</p>
-                <ul class="card__list">
-                  <li class="card__list-item">
-                    Macchiato
-                    <span class="card__list-divider"></span>
-                    $2.25
-                  </li>
-                  <li class="card__list-item">
-                    Cortado
-                    <span class="card__list-divider"></span>
-                    $2.5
-                  </li>
-                  <li class="card__list-item">
-                    Mocha
-                    <span class="card__list-divider"></span>
-                    $3
-                  </li>
-                  <li class="card__list-item">
-                    Sunrise in the Bay Area (decaf)
-                    <span class="card__list-divider"></span>
-                    $10
-                  </li>
-                </ul>
-              </div>
+              <p class="card__title">Expresso</p>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Macchiato
+                  <span class="card__list-divider"></span>
+                  $2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <span class="card__list-divider"></span>
+                  $2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)
+                  <span class="card__list-divider"></span>
+                  $10
+                </li>
+              </ul>
             </div>
             <div class="card">
               <p class="card__title">Baked Goods</p>
