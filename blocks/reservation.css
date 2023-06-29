@@ -13,13 +13,17 @@
   align-items: center;
 }
 
+.reservation__form:last-child {
+  margin-bottom: 0;
+}
+
 .reservation__title {
   display: flex;
   padding-top: 100px;
   justify-content: center;
   margin-top: 0px;
   margin-bottom: 80px;
-  font-family: Inter;
+  font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
