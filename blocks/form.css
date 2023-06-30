@@ -6,13 +6,17 @@
   margin-right: 0;
 }
 
+.form__fieldset:last-child {
+  margin-bottom: 120px;
+  display: flex;
+}
+
 .form__label {
   font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 120px;
 }
 
 .form__input {
@@ -32,6 +36,7 @@
   margin-bottom: 32px;
   max-width: 385px;
   border-color: #838383;
+  border-width: 1px;
 }
 
 .form__button {
@@ -56,16 +61,12 @@
 }
 
 .form__checkbox {
-  display: flex;
   border-radius: 2px;
   border-style: none;
   margin-right: 0px;
   margin-left: 0;
   padding: 0;
-  justify-content: center;
-}
-
-.form__checkbox input {
+  padding-bottom: 120px;
   width: 20px;
   height: 20px;
   margin-right: 8px;
